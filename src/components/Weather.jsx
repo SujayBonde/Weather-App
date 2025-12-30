@@ -61,7 +61,7 @@ const Weather = () => {
   };
 
   useEffect(() => {
-    search("Pune");
+    search();
   }, []);
 
   return (
